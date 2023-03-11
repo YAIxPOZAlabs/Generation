@@ -38,14 +38,24 @@ Please refer to the explanations below to generate certain samples needed for ev
 
 ### Classification Accuracy Score
 - To compute Classicication Accuracy Score of Generated Music conditioned with certain meta data 
-run
+
+to generate samples, run
 ```
-$ python compute_CAS.py --data_dir {./data} --meta_data {KEY}
+$python generate_CAS.py --checkpoint {./model_checkpoint} --meta_data {./meta_data.csv}
+```
+to compute CAS, run
+```
+$ python compute_CAS.py --data_dir {./data} --meta_name {KEY}
 ```
 
 ### Diversity
 - To compute the Diversity of Generated Music conditioned with certain meta data
-run
+
+to generate sampels, run
+```
+$ python generate_diversity.py --checkpoint {./model_checkpoint}
+```
+to compute Diversity, run
 ```
 $ python comput_diversity.py 
 ```
