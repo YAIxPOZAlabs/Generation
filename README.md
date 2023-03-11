@@ -31,7 +31,7 @@ https://github.com/POZAlabs/ComMU-code
 
 <br>
 
-## Metrics (수정중)
+## Metrics (수정중) - 요런 느낌으로 갈 예정
 To evaluate generation models we have to generate data with trained models and depending on what metrics we want to use, the generation proccess differ. 
 Please refer to the explanations below to generate certain samples needed for evaluation.
 
