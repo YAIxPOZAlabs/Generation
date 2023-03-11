@@ -30,6 +30,14 @@ https://github.com/POZAlabs/ComMU-code
 ## Pipeline
 
 <br>
+## Metrics
+### Classification Accuracy Score
+
+
+### Diversity
+
+### Controllability
+
 
 ## Skills
 Frameworks <br><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> 
