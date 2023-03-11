@@ -31,18 +31,24 @@ https://github.com/POZAlabs/ComMU-code
 
 <br>
 
-## Metrics
+## Metrics (수정중)
+To evaluate generation models we have to generate data with trained models and depending on what metrics we want to use, the generation proccess differ. 
+Please refer to the explanations below to generate certain samples needed for evaluation.
 
 
 ### Classification Accuracy Score
 - To compute Classicication Accuracy Score of Generated Music conditioned with certain meta data 
+run
 ```
 $ python compute_CAS.py --data_dir {./data} --meta_data {KEY}
 ```
 
 ### Diversity
-
-
+- To compute the Diversity of Generated Music conditioned with certain meta data
+run
+```
+$ python comput_diversity.py 
+```
 
 ### Controllability
 
