@@ -33,12 +33,16 @@ https://github.com/POZAlabs/ComMU-code
 
 ## Metrics
 
-<br>
 
 ### Classification Accuracy Score
-
+- To compute Classicicatio Accuracy Score of Certain meta data
+```
+$ python compute_CAS.py --data_dir {./data} --meta_data {KEY}
+```
 
 ### Diversity
+
+
 
 ### Controllability
 
