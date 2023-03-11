@@ -35,7 +35,7 @@ https://github.com/POZAlabs/ComMU-code
 
 
 ### Classification Accuracy Score
-- To compute Classicicatio Accuracy Score of Certain meta data
+- To compute Classicication Accuracy Score of Generated Music conditioned with certain meta data 
 ```
 $ python compute_CAS.py --data_dir {./data} --meta_data {KEY}
 ```
